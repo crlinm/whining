@@ -1,0 +1,12 @@
+version: "3.7"
+
+services:
+  postgres:
+#    command: -c log_statement=all
+    image: postgres:14
+    ports:
+      - 127.0.0.1:5433:5432
+    environment:
+      POSTGRES_HOST_AUTH_METHOD: trust
+    volumes:
+      - /home/alina/postgres_inno_data:/var/lib/postgresql/data
