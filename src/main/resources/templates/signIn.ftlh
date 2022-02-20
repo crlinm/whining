@@ -28,6 +28,8 @@
         </div>
         <button class="ui button" type="submit">Войти</button>
     </form>
+    <br>
+    Не зарегистрированы? <a href="/signUp">Зарегистрироваться</a>
 </div>
 </body>
 </html>

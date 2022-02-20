@@ -46,6 +46,9 @@
             <div>
                 <a class="ui button grey basic mini" href="/profile">Редактировать профиль</a>
                 <a class="ui button basic mini" href="/home">Вернуться в общую ленту</a>
+<#--                <button class="ui button">-->
+<#--                    Follow-->
+<#--                </button>-->
             </div>
             <div class="ui divider hidden">
             </div>
@@ -55,6 +58,7 @@
             <button class="ui button" type="submit">Поныть</button>
         </form>
     </#if>
+    <a class="ui button basic mini" href="/home">Вернуться в общую ленту</a>
     <div class="ui feed">
         <#list whines as whine>
         <#--            <div class="event segment ui">-->

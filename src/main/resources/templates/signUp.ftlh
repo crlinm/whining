@@ -37,6 +37,8 @@
         <input type="hidden" name="description" value="">
         <button class="ui button" type="submit">Зарегистрироваться</button>
     </form>
+    <br>
+    Уже есть аккаунт? <a href="/signIn">Войти</a>
 </div>
 </body>
 </html>
